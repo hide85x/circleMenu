@@ -1,5 +1,16 @@
 {
   "devDependencies": {
     "sass": "^1.26.3"
+  },
+  "scripts": {
+    "build": "parcel build index.html --out-dir docs --public-url ./",
+    "start": "parcel index.html --out-dir docs "
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hide85x/circleMenu"
   }
 }
