@@ -25,14 +25,17 @@ body {
   color: white;
   display: block;
   margin: auto;
-  transition: transform 0.7s;
+  transition: 0.7s;
 }
 .toggle i:hover {
-  color: red;
+  color: #fcf815;
 }
 
 .menu {
   margin: auto;
+  border: 2px solid red;
+  background-color: white;
+  transform: scale(0);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -48,9 +51,9 @@ body {
   display: block;
   position: absolute;
   color: #bbbbbb;
-  transition: 0.7s;
+  transition: 0.4s;
   background-color: #fff;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .menu a:hover {
   color: red;
@@ -58,7 +61,7 @@ body {
 }
 .menu a:nth-child(1) {
   left: 10px;
-  top: 42px;
+  top: 40px;
 }
 .menu a:nth-child(2) {
   right: 10px;
