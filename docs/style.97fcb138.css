@@ -1,13 +1,13 @@
 body {
   padding: 0;
   margin: 0;
-  background: #2c3e50;
+  background: #4ba5ff1a;
   overflow: hidden;
 }
 
 .toggle {
   border-radius: 50%;
-  background-color: #3498db;
+  background-color: #3498dbad;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -28,12 +28,12 @@ body {
   transition: 0.7s;
 }
 .toggle i:hover {
-  color: #fcf815;
+  color: #002f5e;
 }
 
 .menu {
   margin: auto;
-  border: 2px solid red;
+  border: 3px solid #002f5e;
   background-color: white;
   transform: scale(0);
   width: 100px;
@@ -56,7 +56,7 @@ body {
   border-radius: 50%;
 }
 .menu a:hover {
-  color: red;
+  color: #002f5e;
   cursor: pointer;
 }
 .menu a:nth-child(1) {
