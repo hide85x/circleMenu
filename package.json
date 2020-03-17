@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-    "sass": "^1.26.3"
+    "cssnano": "^4.1.10",
+    "sass": "^1.25.0"
   },
   "scripts": {
-    "build": "parcel build index.html --out-dir docs --public-url ./",
+    "build": "parcel build index.html --out-dir docs ./",
     "start": "parcel index.html --out-dir docs "
   },
   "dependencies": {
