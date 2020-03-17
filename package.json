@@ -4,7 +4,7 @@
     "sass": "^1.25.0"
   },
   "scripts": {
-    "build": "parcel build index.html --out-dir docs ./",
+    "build": "parcel build index.html --out-dir docs .",
     "start": "parcel index.html --out-dir docs "
   },
   "dependencies": {
